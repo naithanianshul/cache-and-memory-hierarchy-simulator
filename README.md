@@ -24,5 +24,5 @@ Example - The cache specifications are:
 
 ```./sim 32 8192 4 262144 8 3 10 gcc_trace.txt```
 
-The functionality of Prefetching can be disabled by setting <no_of_stream_buffers> and <no_of_memory_blocks_in_each_stream_buffer> as 0.
+The functionality of Prefetching can be disabled by setting **<no_of_stream_buffers>** and **<no_of_memory_blocks_in_each_stream_buffer>** as 0.
 
