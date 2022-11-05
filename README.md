@@ -1,12 +1,6 @@
-<<<<<<< HEAD
-# cache-memory-hierarchy-simulator
+# cache-and-memory-hierarchy-simulator
 Implemention of a flexible cache and memory hierarchy simulator.<br/>
 The cache module also implements the functionality of stream buffers. The caches use Write-Back Write-Allocate (WBWA) write policy and Least-Recently-Used (LRU) replacement policy.
-=======
-# cache-and-memory-hierarchy-simulator
- Implemention of a flexible cache and memory hierarchy simulator.<br/>
- The cache module also implements the functionality of stream buffers. The caches use Write-Back Write-Allocate (WBWA) write policy and Least-Recently-Used (LRU) replacement policy.
->>>>>>> eb3a5ebd6b50be0c28673c477d9ed731bbf811bd
 
 To run the simulator first compile the code by executing the command 'make'.<br/>
 The format of the command to run the cache simulation is:
@@ -31,4 +25,3 @@ Example - The cache specifications are:
 ```./sim 32 8192 4 262144 8 3 10 gcc_trace.txt```
 
 The functionality of Prefetching can be disabled by setting **<no_of_stream_buffers>** and **<no_of_memory_blocks_in_each_stream_buffer>** as 0.
-
