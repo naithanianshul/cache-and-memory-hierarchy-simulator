@@ -6,14 +6,14 @@ To run the simulator first compile the code by executing the command 'make'.
 The format of the command to run the cache simulation is:
 
 >./sim<br/>
->&nbsp;<block_size><br/>
->&nbsp;<L1_cache_size><br/>
->&nbsp;<L1_associativity><br/>
->&nbsp;<L2_cache_size><br/>
->&nbsp;<L2_associativity><br/>
->&nbsp;<no_of_stream_buffers><br/>
->&nbsp;<no_of_memory_blocks_in_each_stream_buffer><br/>
->&nbsp;<trace_file><br/>
+>&ensp;<block_size><br/>
+>&ensp;<L1_cache_size><br/>
+>&ensp;<L1_associativity><br/>
+>&ensp;<L2_cache_size><br/>
+>&ensp;<L2_associativity><br/>
+>&ensp;<no_of_stream_buffers><br/>
+>&ensp;<no_of_memory_blocks_in_each_stream_buffer><br/>
+>&ensp;<trace_file><br/>
 
 Example - The cache specifications are:
 * 32B block size
